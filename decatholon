@@ -1,3 +1,9 @@
 from random import randint     
-die1=randint(bound1,bound2) 
-die2=randint(bound1,bound2) 
+die1=randint(1,6) 
+#die2=randint(1,6) + randint(1,6) 
+#die3=randint(1,6) + randint(1,6) + randint(1,6) 
+#die4=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) 
+#die5=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6)
+#die6=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6) 
+#die7=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6)  + randint(1,6) 
+#die8=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6)  + randint(1,6)  + randint(1,6) 
