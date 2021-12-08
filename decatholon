@@ -1,9 +1,16 @@
+#run this in python 3
+#die1=randint(1,6) #die2=randint(1,6) + randint(1,6) #die3=randint(1,6) + randint(1,6) + randint(1,6) #die4=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) #die5=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6)#die6=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6) #die7=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6)  + randint(1,6) #die8=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6)  + randint(1,6)  + randint(1,6) #100 meters
 from random import randint     
-die1=randint(1,6) 
-#die2=randint(1,6) + randint(1,6) 
-#die3=randint(1,6) + randint(1,6) + randint(1,6) 
-#die4=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) 
-#die5=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6)
-#die6=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6) 
-#die7=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6)  + randint(1,6) 
-#die8=randint(1,6) + randint(1,6) = randint(1,6) + randint(1,6) + randint(1,6) + randint(1,6)  + randint(1,6)  + randint(1,6) 
+
+first=randint(1,6) 
+sec=randint(1,6) 
+trd=randint(1,6) 
+four=randint(1,6) 
+fith=randint(1,6) 
+
+#100m
+TRolls==7
+TRolls=TRolls - 1
+while TRolls > 0:
+    TRolls=TRolls - 1
+    print(first,sec,trd,four)
