@@ -9,8 +9,10 @@ four=randint(1,6)
 fith=randint(1,6) 
 
 #100m
-TRolls==7
-TRolls=TRolls - 1
+TRolls=7
 while TRolls > 0:
-    TRolls=TRolls - 1
-    print(first,sec,trd,four)
+    roll= input("would you like to roll")
+    if roll==True:
+        TRolls=TRolls - 1
+    else:
+        print(first,sec,trd,four)
